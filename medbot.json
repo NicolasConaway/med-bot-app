@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "medbot-oyxsdl",
+    "private_key_id": "f87ba71097a0c8d169a2a1a75ee38c264b6b97e6",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4NBDYm5Fnl+/0\nJB9OaAvI234OB+p1lzLkr+8kQfox5b/VGCtZT1zu9WFY4IYHDJWL2jBOYv/Jn7VP\nA9UK6RsFdQC2xiRRw9ZkMEvsuOnRL+LLygu5csn0Da2q1lQyCEdUSdJqkEGHnYSJ\nljZBDra04ss03Smx9cA2VgsMhkl1b4G+iXAMkaAZOXfqJDH92Q9As169M+WbsNFY\nBqpput2QoYdGCRvullxg4Q7j6zeYi3IkyMUytRctqJ+NIxLFVQ+9+ZxxxAvQ0dr4\n+xKC7OU4Fi7t2R4HF4IsEhr6xWgVwDzu9BCG7k8pvIr5TgKuU2Dg13Vv16o5F2m9\nwlsur7KLAgMBAAECggEAFDVyG7GFlE3w/2HvJVT45gJeo/9uU5RQ+xHqNJogbtT7\n5M8QAm5YjcbR9UQ8sA1LYtp/LjpiQaaJ569N8jJ8ym55s5OtbGMF5FwAGGp5DIAq\na50xCBl12padlP6KoiqSWMb4lMRazBwV7FpUfXK1zMaM8LHK30FM4ykxcSBSctWn\nSgBDUBc9zQW9CBX9OpCSQ6AxHg4Uwh492eMWH3PBWvImRsSsSQuQIg3Vgxsjj9ie\nCVjT8IJrgOK43dTHzryFHImph3unJHED1JJk/tfS3UY5YgKZoy9WC0/m/O/wDHmq\nHGNjP1xkm1pkWOLJRraLc4A8lycb4Sn77XVj/4D9kQKBgQDa1Rv/jG+6pIoXoX4i\nwKBtx8yWVHjD9/s7HRl6QvpVZmirjhGFVKD9aLXNx1GzjTiRTQ3EFSJcGMeqrjua\nIs+hgu4UwbkWA1c0U2xg3n0Qfiq2FAPX10WTOCKVfiysY+JyyswcT2Tozo6EY2EV\n+xCPnqb13NuLzU5sA2LxGRQJnwKBgQDXfUaDEuBjD5VPsrcaZj7L6AtJgQrJVPyV\nla+XUMUz+EAUA1hBBFoFHbKj2Lad7fqVAVuJgZxFwI7cNlzWk/uSy4CrCcvqwwFx\nHIqUQn5wfqJjH56Y8MO4BuEgVq4Pov5iB8LZRdzb7tVzfdDu7PKO0Wdl45rznTWw\noJ50YMVHlQKBgDe7fNT5vF7plu3ryEcrjfBHqXhD7Tnjx01H3PxBYKYtXc0LcrTl\nV9cSOvM8pzc2aUjAOhhNVaHlAb0bgLyBzyWQRfhtWikcErKV6I1HPMzdhR04Pb5T\n6jlTW6N9Lf19tueLdK5lHgsYyD05XjmN5qrdOiJ17EhPsoBZ4HIM9Ah7AoGBAK1w\nOyyMKOYSSM7YvN8WpDxiC5OhtRjOum17CNT1QYPOr2RsPMA3zGyJtpqBdpouTJ1Z\ndl96XlkV3uYHKznZ6YYBHRKM0/+j7Kkpm7AwxKuugOzfKjtWrXCUuOXaXkZfnfcw\n3/cYb+bkmBBYl612MNQaXup3AuRJCEmdPWvV53LxAoGBAJM9uFZhdGZhDg1afWDP\nJwleWxQaDsN+9WbIq6J4Jhl3MWgRj/r67zg+E49EMKWdFyvUCr41DrRwZDAS+/UM\nO0zmTUI1uskLOrrFOE9h8S4QlBt8ayiZAAhAXuuM/B/0uQfRPsh3NWo0Ct7dCaDE\nENmB0V6iMyKiHhZZKp1RSlL9\n-----END PRIVATE KEY-----\n",
+    "client_email": "medbot-oyxsdl@appspot.gserviceaccount.com",
+    "client_id": "105706185016831667826",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/medbot-oyxsdl%40appspot.gserviceaccount.com"
+}

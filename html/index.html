@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Nav Bar and Logo -->
+    <header>
+        <div class="logo--wrapper">
+            <img src="../static/HackathonLogo.jpg" alt="logo" class="logo">
+        </div>
+
+        <div class = "logo-name">
+            <h2>MEDBOT</h2>
+           </div>
+
+        <nav class="navbar">
+            <div class="hamburger--container">
+                <div class="hamburger--line line--1"></div>
+                <div class="hamburger--line line--2"></div>
+                <div class="hamburger--line line--3"></div>
+            </div>
+
+            <ul class="ul--navlinks">
+                <li><a href="#">Medical Records</a></li>
+                <li><a href="#">Doctors Info</a></li>
+                <li><a href="#">Schedule Appointments</a></li>
+                <li><a href="#">Emergency</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Button to start recording your voice -->
+    <div class="img_wrapper">
+        <img class="microphone" id="mic-start" src="../static/microphone.png" alt="Microphone Icon">
+        <img class="microphone not-listening" id="mic-stop" src="../static/mute_mic.png" alt="Mute Mic Icon">
+    </div>
+
+    <!-- Box where the chat log will take place -->
+    <div class="chat__outerWrapper">
+        <div class="chat_wrapper">
+        <div class="chat_messages"></div>
+        <div id="msg" class="msg">
+            <!-- <span class="box"></span> -->
+        </div>
+    </div>
+    </div>
+    
+
+    <script>
+        /*Nav Bar animation*/
+        const hamburgerIcon = document.querySelector(".hamburger--container")
+        const navBar = document.querySelector(".navbar")
+
+        hamburgerIcon.addEventListener('click', () => {
+        navBar.classList.toggle("change")
+        })
+        /*Microphone listening toggle*/
+        const wrapper = document.querySelector('.img_wrapper')
+        const listeningIn = document.querySelector('#mic-start');
+        const stoplisteningIn = document.querySelector('#mic-stop');
+         
+        listeningIn.addEventListener('click', () => {
+            listeningIn.classList.add("listening")
+            stoplisteningIn.classList.remove("not-listening")
+        })
+
+        stoplisteningIn.addEventListener('click', () => {
+            stoplisteningIn.classList.add("not-listening")
+            listeningIn.classList.remove("listening")
+        })
+    </script>
+    <script src="../static/speech.js"></script>
+    
+</body>
+</html>
